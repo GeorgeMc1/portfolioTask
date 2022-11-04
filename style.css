@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color:rgb(173, 252, 255);
+}
+#nav-bar{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#nav-bar a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin: 0 1rem 0;
+}
+#nav-bar a:hover{
+    text-decoration: underline;
+}
+section{
+    margin: 10px;
+}
+.flex-column-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2.5rem;
+    margin: 0;
+    text-align: center;
+}
+h2{
+    margin: 0;
+}
+p{
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* about me page */
+#sec1{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+#sec1 section{
+    align-items: baseline;
+    width: 200px;
+}
+#sec1 section ol,#sec1 section ul{
+    padding: 0;
+    margin: 0 0 0 1rem;
+}
+#sec2{
+    margin: 10px 0;
+}
+#sec2 section{
+    /* border: black solid 2px; */
+    width: 30rem;
+    padding: 10px;
+}
+#return{
+    position: fixed;
+    top: 97%;
+}
+
+/* portfolio page */
+#portfolio-main section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: baseline; */
+    width: 75%;
+}
+#portfolio-main section img{
+    align-self: center;
+    width: 70%;
+}
